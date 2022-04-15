@@ -1,0 +1,17 @@
+{
+  "name": "crawl-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "image-downloader": "^4.1.0",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.4.0"
+  }
+}

@@ -1,0 +1,222 @@
+{
+    "products": [
+        {
+            "id": "P000",
+            "name": "Nike Air Force 1 '07",
+            "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball OG that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.",
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4f37fca8-6bce-43e7-ad07-f57ae3c13142/air-force-1-07-shoe-WrLlWX.png",
+            "price": "2,649,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P001",
+            "name": "Nike Air Force 1 '07 Craft",
+            "description": "The legend lives on in the Nike Air Force 1 '07 Craft—a modern take on the iconic AF-1 with new details like fresh graphics on the tongue and heel. Crisp leather, brushed suede and exposed stitching on the upper add texture and depth while the new plush liner feels soft and comfortable. Its redesigned shape returns to OG roots, adding heritage style.",
+            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3e689630-e1ca-4e35-b08c-6f32e9afb14d/air-force-1-07-craft-shoe-RxBngv.png",
+            "price": "3,519,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P002",
+            "name": "Nike Dunk High Retro SE",
+            "description": "Go full throttle in the Nike Dunk Low High Retro.It brings motocross-inspired details like bold branding, reflective accents and fresh materials to the wardrobe favourite.Crisp leather, bright panels and flashy details deliver high-octane energy.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "3,519,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P003",
+            "name": "Nike Air Max 90",
+            "description": "The Nike Air Max 90 Slide honours the legendary shoe that shook up the sneaker scene 30 years ago. The visible Max Air unit in the heel celebrates its strong heritage, while colourful stitched-in TPU elements add retro styling. The foam footbed and plush strap lining offer comfort and support. An embroidered Swoosh and premium materials elevate this slide into a category all its own.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "2,189,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P004",
+            "name": "Nike Air Max 90 G",
+            "description": "The original Nike Air Max 90 was renowned for its clean lines and timeless style. The Nike Air Max 90 G stays true to the OG icon with a few updates made for golf, like integrated traction and a thin overlay that helps keep out water.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "3,829,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P005",
+            "name": "Air Jordan XII Low",
+            "description": "Michael Jordan's game-winning classic from the mid-90s returns—and this time it's built for golf. The Air Jordan 12 Low updates the famous, rising sun-inspired stitch lines and quilted-like upper with an incredibly grippy spiked outsole and a springy, full-length Zoom Air unit.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "6,459,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P006",
+            "name": "Nike ZoomX Vaporfly Next% 2",
+            "description": "Continue the next evolution of speed with a racing shoe made to help you chase new goals and records. It helps improve comfort and breathability with a redesigned upper. From a 10K to a marathon, this model, like the previous version, has the responsive cushioning and secure support to push you towards your personal best.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "6,609,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P007",
+            "name": "Nike SB Force 58",
+            "description": "The latest and greatest innovation to hit the streets, the Nike SB Force 58 gives you the durability of a cupsole with the flexibility of a vulcanised shoe.Made from canvas and suede and finished with perforations, the whole look is infused with heritage basketball DNA.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "2,189,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P008",
+            "name": "PG 6 EP",
+            "description": "Paul George does it all on the court, comfortably. He can take it to the hole, drive and dish, catch and shoot—always smooth, frequently devastating. Made from plush materials, his signature PG 6 EP is designed to feel light and buoyant, like you're walking on clouds.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "3,239,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P009",
+            "name": "Nike Air Max 97",
+            "description": "With an iconic design inspired by Japanese bullet trains and water droplets, push your style full speed ahead in the Air Max 97. Full-length Nike Air cushioning lets you ride in first-class comfort.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "4,999,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P010",
+            "name": "Nike Blazer Mid '77 Premium",
+            "description": "Styled for the '70s. Loved in the '80s. Classic in the '90s. Ready for the future. The Nike Blazer Mid '77 Premium delivers a timeless design that's easy to wear. Leather upper breaks in beautifully and is paired with retro branding and suede accents for a classic look. Exposed foam on the tongue and a special midsole finish make it look like you've just pulled them from the history books. Go ahead, perfect your outfit.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "2,929,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P011",
+            "name": "Nike Waffle Trainer 2 SE",
+            "description": "Staying true to the timeless athletics style you love, the Nike Waffle Trainer 2 brings you the original look of heritage Nike running shoes. Equipped with the iconic Waffle outsole, throwback Swoosh logo and old-school suede accents, it's a true blast from the past.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "2,929,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P012",
+            "name": "Nike Waffle One",
+            "description": "Bringing a new look to the iconic Waffle franchise, the Nike Waffle One balances everything you love most about heritage Nike running with fresh innovations.Its new durable plastic heel clip adds energy, while a mixture of transparent mesh and luscious suedes get you ready for summertime.The new springy midsole features the classic wedge shape while the updated Waffle outsole provides a level of support and traction you have to feel to believe.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "2,929,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P013",
+            "name": "Nike Air Kukini SE",
+            "description": "Let opposites attract with the Nike Air Kukini. Bridging casual with technical, its stretchy fabric hugs your foot, while the caged support system adds a sporty finish inspired by '90s ski suits. Visible Air cushioning puts the cherry on the bottom for this boundary-pushing paradox of perfection.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "4,109,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P014",
+            "name": "Jordan .5 'Why Not?'",
+            "description": "Russell Westbrook is fast. These shoes match his quickness with updated cushioning, data-informed traction and a full-foot fit system to keep him in control. With a rugged utility look combined with a purposeful clash of colours and materials, this model speaks to the core of Russel's \"Why Not?\" mantra.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "3,829,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P015",
+            "name": "Nike Air Force 1 '07 LX",
+            "description": "The \"Nike Athletic Club\", Nike's fictional athletics team, brings '70s inspiration to streetwear staples. Mixing retro fun with iconic hoops style, the Nike Air Force 1 '07 LX delivers a fresh spin on what you know best: stitched overlays, bold colours and the perfect amount of hoops style to make heads turn. Era-echoing suede pairs with letterman style \"AF-1\" patching on the heel for a varsity finish.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "3,519,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P016",
+            "name": "Nike SB Ishod Wair Premium",
+            "description": "When it came time to build his signature shoe, Ishod Wair was all in from the start. Infused with elements taken from the iconic hoops shoes of the '90s, (did you know that basketball was Ishod's first love?) and built with all the durability you need to skate hard, the Nike SB Ishod Wair Premium walks the line between original style and modern skate innovation. This premium version has all the performance features of the original, now dressed up in velvety nubuck.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "3,239,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P017",
+            "name": "Nike Air Force 1 '07 LV8",
+            "description": "We just want to say, \"HAVE A NIKE DAY\". The radiance lives on with the b-ball original. Crossing hardwood comfort with off-court flair, it puts a friendly spin on what you know best: era-echoing, '80s construction, bold details and nothin'-but-net style.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "3,089,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P018",
+            "name": "Nike Air Force 1 High '07 LV8 Vintage",
+            "description": "The Nike Air Force 1 High '07 LV8 Vintage is everything you know best: crisp leather overlays, bold accents and classic hoops style. The padded, high-cut collar with hook-and-loop closure adds heritage b-ball comfort while the rubber outsole gives your look traction on and off the court.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "3,669,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P019",
+            "name": "Jordan Super Play",
+            "description": "Your feet deserve nothing but the best. These slides offer lightweight foam and plush underfoot cushioning—premium comfort you'll look forward to after your next big game.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "1,609,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P020",
+            "name": "Nike Air Max 95",
+            "description": "Taking inspiration from the human body and '90s athletics aesthetics, the Air Max 95 mixes unbelievable comfort with fast-paced style. The wavy side panels add natural flow to any outfit, while visible Nike Air in the heel and forefoot delivers performance comfort.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "4,699,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P021",
+            "name": "Nike Zoom Fly 4",
+            "description": "Train hard and find your rhythm on the road. From the moment you lace up, the lacing system wraps around your foot for a secure feel from start to finish. The added flex feels highly responsive and secure with every step. A soft, breathable upper is combined with a stretchy collar for a sock-like fit for a secure, stable sensation. You've got goals to hit, lace up and fly towards a new best.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "4,699,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P022",
+            "name": "Air Jordan 1 Retro High OG",
+            "description": "Familiar but always fresh, the iconic Air Jordan 1 is remastered for today's sneakerhead culture. This Retro High OG version goes all in with premium leather, comfortable cushioning and classic design details.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "4,999,000₫",
+            "dateCreate": "15/04/2022"
+        },
+        {
+            "id": "P023",
+            "name": "Nike SB Zoom Blazer Low Pro GT Premium",
+            "description": "A Grant Taylor signature shoe with workwear vibes, the Nike SB Zoom Blazer infuses a low-cut classic with hard-working materials, like durable leather and washed denim. The result is a skate-ready style that's ready to charge hard.",
+            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "price": "2,499,000₫",
+            "dateCreate": "15/04/2022"
+        }
+    ],
+    "categories": [
+        {
+            "id": "C000",
+            "name": "Men"
+        },
+        {
+            "id": "C001",
+            "name": "Women"
+        },
+        {
+            "id": "C002",
+            "name": "Kids"
+        },
+        {
+            "id": "C003",
+            "name": "Customise"
+        },
+        {
+            "id": "C004",
+            "name": "Sale"
+        },
+        {
+            "id": "C005",
+            "name": "SNKRS"
+        }
+    ]
+}
