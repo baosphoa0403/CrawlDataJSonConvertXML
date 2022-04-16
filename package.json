@@ -12,6 +12,8 @@
   "dependencies": {
     "image-downloader": "^4.1.0",
     "nodemon": "^2.0.15",
-    "puppeteer": "^13.4.0"
+    "puppeteer": "^13.4.0",
+    "vkbeautify": "^0.99.3",
+    "x2js": "^3.4.3"
   }
 }

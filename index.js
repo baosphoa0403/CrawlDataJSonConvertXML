@@ -1,6 +1,20 @@
 const puppeteer = require('puppeteer');
 const download = require('image-downloader');
+const X2JS = require('x2js');
 const fs = require('fs');
+const vkbeautify = require('vkbeautify');
+function convertJsonXML() {
+  fs.readFile('data.json', (err, data) => {
+    if (err) throw err;
+    let listData = JSON.parse(data);
+    var x2js = new X2JS();
+    var document = x2js.js2xml({ root: listData });
+    var dep = vkbeautify.xml(document, 4);
+    console.log(dep);
+    // console.log(listData);
+    fs.writeFileSync('data.xml', dep);
+  });
+}
 function extractItemsProduct() {
   const extractedElements = document.querySelectorAll(".product-card > .product-card__body > figure > .product-card__link-overlay");
   const items = [];
@@ -37,6 +51,7 @@ async function scrapeInfiniteScrollItems(
   try {
     let previousHeight;
     while (items.length < itemTargetCount) {
+      console.log(items.length + "-" + itemTargetCount);
       items = await page.evaluate(extractItems);
       previousHeight = await page.evaluate('document.body.scrollHeight');
       await page.evaluate('window.scrollTo(0, document.body.scrollHeight)');
@@ -44,7 +59,7 @@ async function scrapeInfiniteScrollItems(
       await page.waitFor(scrollDelay);
     }
   } catch (e) { }
-  return items;
+  return items.splice(0, itemTargetCount);
 }
 (async () => {
   const browser = await puppeteer.launch();
@@ -53,12 +68,13 @@ async function scrapeInfiniteScrollItems(
   // const baseURL = "https://www.nike.com";
   // const url = `https://www.nike.com/vn/w/mens-shoes-nik1zy7ok`;
   // const urlDetail = `${baseURL}/t`;
+  await page.setDefaultNavigationTimeout(0);
   await page.goto("https://www.nike.com/vn/w/mens-shoes-nik1zy7ok", {
     waitUntil: 'networkidle2',
   });
   console.log('Page loaded');
   page.setViewport({ width: 1280, height: 926 });
-  const items = await scrapeInfiniteScrollItems(page, extractItemsProduct, 5);
+  const items = await scrapeInfiniteScrollItems(page, extractItemsProduct, 70);
   const dataCategory = await page.evaluate(() => {
     let categories = [];
     let array = document.querySelectorAll(".pre-desktop-menu .pre-desktop-menu-item");
@@ -83,6 +99,7 @@ async function scrapeInfiniteScrollItems(
     const browser = await puppeteer.launch();
     console.log('Browser openned detail');
     const page = await browser.newPage();
+    await page.setDefaultNavigationTimeout(0);
     await page.goto(items[i].description, {
       waitUntil: 'networkidle2',
     });
@@ -101,6 +118,7 @@ async function scrapeInfiniteScrollItems(
   console.log(items);
 
   fs.writeFileSync('data.json', JSON.stringify({ products: items, categories: dataCategory }));
+  convertJsonXML();
   console.log("close app");
 
 })();
