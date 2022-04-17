@@ -30,8 +30,9 @@ function extractItemsProduct() {
   const urlDetailProduct = "";
   for (let i = 0; i < extractedElements.length; i++) {
     // console.log(document.querySelectorAll(".product-card  .product-card__body > figure > .product-card__link-overlay"));
-    let dataJson = {};
+    let dataJson = {}
     dataJson.id = i < 10 ? "P00" + i : "P0" + i;
+    dataJson.idCategory = "C00" + Math.floor(Math.random() * 6);
     dataJson.name = document.querySelectorAll(".product-card__title")[i].innerHTML;
     dataJson.description = document.querySelectorAll(".product-card__img-link-overlay")[i].href;
     dataJson.image = document.querySelectorAll(".product-card  .product-card__body > figure > .product-card__img-link-overlay > div > div > img ")[i].src;
@@ -74,7 +75,7 @@ async function scrapeInfiniteScrollItems(
   });
   console.log('Page loaded');
   page.setViewport({ width: 1280, height: 926 });
-  const items = await scrapeInfiniteScrollItems(page, extractItemsProduct, 70);
+  const items = await scrapeInfiniteScrollItems(page, extractItemsProduct, 10);
   const dataCategory = await page.evaluate(() => {
     let categories = [];
     let array = document.querySelectorAll(".pre-desktop-menu .pre-desktop-menu-item");
