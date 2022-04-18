@@ -32,8 +32,8 @@ function extractItemsProduct() {
   for (let i = 0; i < extractedElements.length; i++) {
     // console.log(document.querySelectorAll(".product-card  .product-card__body > figure > .product-card__link-overlay"));
     let dataJson = {}
-    dataJson.id = i < 10 ? "P00" + i : "P0" + i;
-    dataJson.idCategory = "C00" + Math.floor(Math.random() * 6);
+    dataJson.id = i;
+    dataJson.idCategory = Math.floor(Math.random() * (12 - 6 + 1) + 6);
     dataJson.name = document.querySelectorAll(".product-card__title")[i].innerHTML;
     dataJson.description = document.querySelectorAll(".product-card__img-link-overlay")[i].href;
     dataJson.image = document.querySelectorAll(".product-card  .product-card__body > figure > .product-card__img-link-overlay > div > div > img ")[i].src;
@@ -83,7 +83,7 @@ async function scrapeInfiniteScrollItems(
     // .job-item .row .col-3 .logo-border a img
     for (let i = 0; i < array.length; i++) {
       let dataJson = {};
-      dataJson.id = i < 10 ? "C00" + i : "C0" + i;
+      dataJson.id = i + 6;
       dataJson.name = document.querySelectorAll(".pre-desktop-menu .pre-desktop-menu-item > a")[i].innerHTML;
       categories.push(dataJson)
     }

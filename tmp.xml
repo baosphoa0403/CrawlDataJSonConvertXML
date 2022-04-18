@@ -1,7 +1,7 @@
 <root>
     <products>
-        <id>P000</id>
-        <idCategory>C001</idCategory>
+        <id>0</id>
+        <idCategory>10</idCategory>
         <name>Nike Air Force 1 &#x27;07</name>
         <description>The radiance lives on in the Nike Air Force 1 &#x27;07, the b-ball OG that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.</description>
         <image>https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/air-force-1-07-shoe-WrLlWX.png</image>
@@ -9,8 +9,8 @@
         <dateCreate>18/04/2022</dateCreate>
     </products>
     <products>
-        <id>P001</id>
-        <idCategory>C003</idCategory>
+        <id>1</id>
+        <idCategory>6</idCategory>
         <name>Nike Air Force 1 &#x27;07 Craft</name>
         <description>The legend lives on in the Nike Air Force 1 &#x27;07 Craft—a modern take on the iconic AF-1 with new details like fresh graphics on the tongue and heel. Crisp leather, brushed suede and exposed stitching on the upper add texture and depth while the new plush liner feels soft and comfortable. Its redesigned shape returns to OG roots, adding heritage style.</description>
         <image>https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a96a1b62-d6b4-4c91-b1db-ae68863243af/air-force-1-07-craft-shoe-RxBngv.png</image>
@@ -18,8 +18,8 @@
         <dateCreate>18/04/2022</dateCreate>
     </products>
     <products>
-        <id>P002</id>
-        <idCategory>C004</idCategory>
+        <id>2</id>
+        <idCategory>6</idCategory>
         <name>Nike Dunk High Retro SE</name>
         <description>Go full throttle in the Nike Dunk Low High Retro.It brings motocross-inspired details like bold branding, reflective accents and fresh materials to the wardrobe favourite.Crisp leather, bright panels and flashy details deliver high-octane energy.</description>
         <image>https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/2a617295-4b1a-46e1-91e2-6963fd252c59/dunk-high-retro-se-shoes-tXRLdK.png</image>
@@ -27,8 +27,8 @@
         <dateCreate>18/04/2022</dateCreate>
     </products>
     <products>
-        <id>P003</id>
-        <idCategory>C000</idCategory>
+        <id>3</id>
+        <idCategory>6</idCategory>
         <name>Nike Air Max 90</name>
         <description>The Nike Air Max 90 Slide honours the legendary shoe that shook up the sneaker scene 30 years ago. The visible Max Air unit in the heel celebrates its strong heritage, while colourful stitched-in TPU elements add retro styling. The foam footbed and plush strap lining offer comfort and support. An embroidered Swoosh and premium materials elevate this slide into a category all its own.</description>
         <image>https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f35fe6b3-4673-4bf2-b8b7-abe36ccde8f8/air-max-90-slide-bPJh33.png</image>
@@ -36,8 +36,8 @@
         <dateCreate>18/04/2022</dateCreate>
     </products>
     <products>
-        <id>P004</id>
-        <idCategory>C005</idCategory>
+        <id>4</id>
+        <idCategory>7</idCategory>
         <name>Nike Air Max 90 G</name>
         <description>The original Nike Air Max 90 was renowned for its clean lines and timeless style. The Nike Air Max 90 G stays true to the OG icon with a few updates made for golf, like integrated traction and a thin overlay that helps keep out water.</description>
         <image>https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png</image>
@@ -45,27 +45,27 @@
         <dateCreate>18/04/2022</dateCreate>
     </products>
     <categories>
-        <id>C000</id>
+        <id>6</id>
         <name>Men</name>
     </categories>
     <categories>
-        <id>C001</id>
+        <id>7</id>
         <name>Women</name>
     </categories>
     <categories>
-        <id>C002</id>
+        <id>8</id>
         <name>Kids</name>
     </categories>
     <categories>
-        <id>C003</id>
+        <id>9</id>
         <name>Customise</name>
     </categories>
     <categories>
-        <id>C004</id>
+        <id>10</id>
         <name>Sale</name>
     </categories>
     <categories>
-        <id>C005</id>
+        <id>11</id>
         <name>SNKRS</name>
     </categories>
 </root>
