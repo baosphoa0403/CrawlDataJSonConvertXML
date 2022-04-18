@@ -12,7 +12,8 @@ function convertJsonXML() {
     var dep = vkbeautify.xml(document, 4);
     console.log(dep);
     // console.log(listData);
-    fs.writeFileSync('data.xml', dep);
+    fs.writeFileSync('tmp.xml', dep);
+    return;
   });
 }
 function extractItemsProduct() {
@@ -75,7 +76,7 @@ async function scrapeInfiniteScrollItems(
   });
   console.log('Page loaded');
   page.setViewport({ width: 1280, height: 926 });
-  const items = await scrapeInfiniteScrollItems(page, extractItemsProduct, 10);
+  const items = await scrapeInfiniteScrollItems(page, extractItemsProduct, 5);
   const dataCategory = await page.evaluate(() => {
     let categories = [];
     let array = document.querySelectorAll(".pre-desktop-menu .pre-desktop-menu-item");
@@ -105,10 +106,13 @@ async function scrapeInfiniteScrollItems(
       waitUntil: 'networkidle2',
     });
     console.log('Page  loaded detail');
-    const description = await page.evaluate(() => {
-      return document.querySelector(".description-preview > p").innerHTML;
+    const object = await page.evaluate(() => {
+      // 
+      return { description: document.querySelector(".description-preview > p").innerHTML, img: document.querySelectorAll(".css-du206p > picture:last-child > img")[0].src };
     })
-    items[i].description = description;
+    items[i].description = object.description;
+    items[i].image = object.img;
+
     console.log("detail 123");
     console.log(items[i]);
     await browser.close()
@@ -118,8 +122,10 @@ async function scrapeInfiniteScrollItems(
   // });
   console.log(items);
 
-  fs.writeFileSync('data.json', JSON.stringify({ products: items, categories: dataCategory }));
-  convertJsonXML();
+  if (items.length !== 0) {
+    fs.writeFileSync('data.json', JSON.stringify({ products: items, categories: dataCategory }));
+    convertJsonXML();
+  }
   console.log("close app");
-
+  return;
 })();

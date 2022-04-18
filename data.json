@@ -1,94 +1,49 @@
 {
     "products": [
         {
-            "idCategory": "C001",
             "id": "P000",
+            "idCategory": "C001",
             "name": "Nike Air Force 1 '07",
             "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball OG that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.",
-            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4f37fca8-6bce-43e7-ad07-f57ae3c13142/air-force-1-07-shoe-WrLlWX.png",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/air-force-1-07-shoe-WrLlWX.png",
             "price": "2,649,000₫",
-            "dateCreate": "17/04/2022"
+            "dateCreate": "18/04/2022"
         },
         {
-            "idCategory": "C003",
             "id": "P001",
+            "idCategory": "C003",
             "name": "Nike Air Force 1 '07 Craft",
             "description": "The legend lives on in the Nike Air Force 1 '07 Craft—a modern take on the iconic AF-1 with new details like fresh graphics on the tongue and heel. Crisp leather, brushed suede and exposed stitching on the upper add texture and depth while the new plush liner feels soft and comfortable. Its redesigned shape returns to OG roots, adding heritage style.",
-            "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3e689630-e1ca-4e35-b08c-6f32e9afb14d/air-force-1-07-craft-shoe-RxBngv.png",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a96a1b62-d6b4-4c91-b1db-ae68863243af/air-force-1-07-craft-shoe-RxBngv.png",
             "price": "3,519,000₫",
-            "dateCreate": "17/04/2022"
+            "dateCreate": "18/04/2022"
         },
         {
-            "idCategory": "C001",
             "id": "P002",
+            "idCategory": "C004",
             "name": "Nike Dunk High Retro SE",
             "description": "Go full throttle in the Nike Dunk Low High Retro.It brings motocross-inspired details like bold branding, reflective accents and fresh materials to the wardrobe favourite.Crisp leather, bright panels and flashy details deliver high-octane energy.",
-            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/2a617295-4b1a-46e1-91e2-6963fd252c59/dunk-high-retro-se-shoes-tXRLdK.png",
             "price": "3,519,000₫",
-            "dateCreate": "17/04/2022"
+            "dateCreate": "18/04/2022"
         },
         {
-            "idCategory": "C004",
             "id": "P003",
+            "idCategory": "C000",
             "name": "Nike Air Max 90",
             "description": "The Nike Air Max 90 Slide honours the legendary shoe that shook up the sneaker scene 30 years ago. The visible Max Air unit in the heel celebrates its strong heritage, while colourful stitched-in TPU elements add retro styling. The foam footbed and plush strap lining offer comfort and support. An embroidered Swoosh and premium materials elevate this slide into a category all its own.",
-            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f35fe6b3-4673-4bf2-b8b7-abe36ccde8f8/air-max-90-slide-bPJh33.png",
             "price": "2,189,000₫",
-            "dateCreate": "17/04/2022"
+            "dateCreate": "18/04/2022"
         },
         {
-            "idCategory": "C003",
             "id": "P004",
+            "idCategory": "C005",
             "name": "Nike Air Max 90 G",
             "description": "The original Nike Air Max 90 was renowned for its clean lines and timeless style. The Nike Air Max 90 G stays true to the OG icon with a few updates made for golf, like integrated traction and a thin overlay that helps keep out water.",
-            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png",
             "price": "3,829,000₫",
-            "dateCreate": "17/04/2022"
-        },
-        {
-            "idCategory": "C004",
-            "id": "P005",
-            "name": "Air Jordan XII Low",
-            "description": "Michael Jordan's game-winning classic from the mid-90s returns—and this time it's built for golf. The Air Jordan 12 Low updates the famous, rising sun-inspired stitch lines and quilted-like upper with an incredibly grippy spiked outsole and a springy, full-length Zoom Air unit.",
-            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "price": "6,459,000₫",
-            "dateCreate": "17/04/2022"
-        },
-        {
-            "idCategory": "C005",
-            "id": "P006",
-            "name": "Nike ZoomX Vaporfly Next% 2",
-            "description": "Continue the next evolution of speed with a racing shoe made to help you chase new goals and records. It helps improve comfort and breathability with a redesigned upper. From a 10K to a marathon, this model, like the previous version, has the responsive cushioning and secure support to push you towards your personal best.",
-            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "price": "6,609,000₫",
-            "dateCreate": "17/04/2022"
-        },
-        {
-            "idCategory": "C001",
-            "id": "P007",
-            "name": "Nike SB Force 58",
-            "description": "The latest and greatest innovation to hit the streets, the Nike SB Force 58 gives you the durability of a cupsole with the flexibility of a vulcanised shoe.Made from canvas and suede and finished with perforations, the whole look is infused with heritage basketball DNA.",
-            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "price": "2,189,000₫",
-            "dateCreate": "17/04/2022"
-        },
-        {
-            "idCategory": "C005",
-            "id": "P008",
-            "name": "PG 6 EP",
-            "description": "Paul George does it all on the court, comfortably. He can take it to the hole, drive and dish, catch and shoot—always smooth, frequently devastating. Made from plush materials, his signature PG 6 EP is designed to feel light and buoyant, like you're walking on clouds.",
-            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "price": "3,239,000₫",
-            "dateCreate": "17/04/2022"
-        },
-        {
-            "idCategory": "C000",
-            "id": "P009",
-            "name": "Nike Air Max 97",
-            "description": "With an iconic design inspired by Japanese bullet trains and water droplets, push your style full speed ahead in the Air Max 97. Full-length Nike Air cushioning lets you ride in first-class comfort.",
-            "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "price": "4,999,000₫",
-            "dateCreate": "17/04/2022"
+            "dateCreate": "18/04/2022"
         }
     ],
     "categories": [
