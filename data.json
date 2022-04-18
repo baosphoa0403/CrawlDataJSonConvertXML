@@ -1,1 +1,120 @@
-{"products":[{"id":0,"idCategory":10,"name":"Nike Air Force 1 '07","description":"The radiance lives on in the Nike Air Force 1 '07, the b-ball OG that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.","image":"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/air-force-1-07-shoe-WrLlWX.png","price":"2,649,000₫","dateCreate":"18/04/2022"},{"id":1,"idCategory":6,"name":"Nike Air Force 1 '07 Craft","description":"The legend lives on in the Nike Air Force 1 '07 Craft—a modern take on the iconic AF-1 with new details like fresh graphics on the tongue and heel. Crisp leather, brushed suede and exposed stitching on the upper add texture and depth while the new plush liner feels soft and comfortable. Its redesigned shape returns to OG roots, adding heritage style.","image":"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a96a1b62-d6b4-4c91-b1db-ae68863243af/air-force-1-07-craft-shoe-RxBngv.png","price":"3,519,000₫","dateCreate":"18/04/2022"},{"id":2,"idCategory":6,"name":"Nike Dunk High Retro SE","description":"Go full throttle in the Nike Dunk Low High Retro.It brings motocross-inspired details like bold branding, reflective accents and fresh materials to the wardrobe favourite.Crisp leather, bright panels and flashy details deliver high-octane energy.","image":"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/2a617295-4b1a-46e1-91e2-6963fd252c59/dunk-high-retro-se-shoes-tXRLdK.png","price":"3,519,000₫","dateCreate":"18/04/2022"},{"id":3,"idCategory":6,"name":"Nike Air Max 90","description":"The Nike Air Max 90 Slide honours the legendary shoe that shook up the sneaker scene 30 years ago. The visible Max Air unit in the heel celebrates its strong heritage, while colourful stitched-in TPU elements add retro styling. The foam footbed and plush strap lining offer comfort and support. An embroidered Swoosh and premium materials elevate this slide into a category all its own.","image":"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f35fe6b3-4673-4bf2-b8b7-abe36ccde8f8/air-max-90-slide-bPJh33.png","price":"2,189,000₫","dateCreate":"18/04/2022"},{"id":4,"idCategory":7,"name":"Nike Air Max 90 G","description":"The original Nike Air Max 90 was renowned for its clean lines and timeless style. The Nike Air Max 90 G stays true to the OG icon with a few updates made for golf, like integrated traction and a thin overlay that helps keep out water.","image":"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png","price":"3,829,000₫","dateCreate":"18/04/2022"}],"categories":[{"id":6,"name":"Men"},{"id":7,"name":"Women"},{"id":8,"name":"Kids"},{"id":9,"name":"Customise"},{"id":10,"name":"Sale"},{"id":11,"name":"SNKRS"}]}
+{
+    "products": [
+        {
+            "id": 0,
+            "idCategory": 10,
+            "name": "Nike Air Force 1 '07",
+            "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball OG that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/air-force-1-07-shoe-WrLlWX.png",
+            "price": "2,649,000₫",
+            "dateCreate": "18/04/2022"
+        },
+        {
+            "id": 1,
+            "idCategory": 8,
+            "name": "Nike Air Force 1 '07 Craft",
+            "description": "The legend lives on in the Nike Air Force 1 '07 Craft—a modern take on the iconic AF-1 with new details like fresh graphics on the tongue and heel. Crisp leather, brushed suede and exposed stitching on the upper add texture and depth while the new plush liner feels soft and comfortable. Its redesigned shape returns to OG roots, adding heritage style.",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a96a1b62-d6b4-4c91-b1db-ae68863243af/air-force-1-07-craft-shoe-RxBngv.png",
+            "price": "3,519,000₫",
+            "dateCreate": "18/04/2022"
+        },
+        {
+            "id": 2,
+            "idCategory": 8,
+            "name": "Nike Dunk High Retro SE",
+            "description": "Go full throttle in the Nike Dunk Low High Retro.It brings motocross-inspired details like bold branding, reflective accents and fresh materials to the wardrobe favourite.Crisp leather, bright panels and flashy details deliver high-octane energy.",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/2a617295-4b1a-46e1-91e2-6963fd252c59/dunk-high-retro-se-shoes-tXRLdK.png",
+            "price": "3,519,000₫",
+            "dateCreate": "18/04/2022"
+        },
+        {
+            "id": 3,
+            "idCategory": 11,
+            "name": "Nike Air Max 90",
+            "description": "The Nike Air Max 90 Slide honours the legendary shoe that shook up the sneaker scene 30 years ago. The visible Max Air unit in the heel celebrates its strong heritage, while colourful stitched-in TPU elements add retro styling. The foam footbed and plush strap lining offer comfort and support. An embroidered Swoosh and premium materials elevate this slide into a category all its own.",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f35fe6b3-4673-4bf2-b8b7-abe36ccde8f8/air-max-90-slide-bPJh33.png",
+            "price": "2,189,000₫",
+            "dateCreate": "18/04/2022"
+        },
+        {
+            "id": 4,
+            "idCategory": 10,
+            "name": "Nike Air Max 90 G",
+            "description": "The original Nike Air Max 90 was renowned for its clean lines and timeless style. The Nike Air Max 90 G stays true to the OG icon with a few updates made for golf, like integrated traction and a thin overlay that helps keep out water.",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png",
+            "price": "3,829,000₫",
+            "dateCreate": "18/04/2022"
+        },
+        {
+            "id": 5,
+            "idCategory": 9,
+            "name": "Air Jordan XII Low",
+            "description": "Michael Jordan's game-winning classic from the mid-90s returns—and this time it's built for golf. The Air Jordan 12 Low updates the famous, rising sun-inspired stitch lines and quilted-like upper with an incredibly grippy spiked outsole and a springy, full-length Zoom Air unit.",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/2778052b-a87d-427f-b8e1-850f01fabd7a/air-jordan-xii-low-golf-shoes-GpK0Fl.png",
+            "price": "6,459,000₫",
+            "dateCreate": "18/04/2022"
+        },
+        {
+            "id": 6,
+            "idCategory": 12,
+            "name": "Nike SB Force 58",
+            "description": "The latest and greatest innovation to hit the streets, the Nike SB Force 58 gives you the durability of a cupsole with the flexibility of a vulcanised shoe.Made from canvas and suede and finished with perforations, the whole look is infused with heritage basketball DNA.",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ace5a056-1c85-44e5-a15c-a506a60183eb/sb-force-58-skate-shoe-HNFTvl.png",
+            "price": "2,189,000₫",
+            "dateCreate": "18/04/2022"
+        },
+        {
+            "id": 7,
+            "idCategory": 8,
+            "name": "Nike ZoomX Vaporfly Next% 2",
+            "description": "Continue the next evolution of speed with a racing shoe made to help you chase new goals and records. It helps improve comfort and breathability with a redesigned upper. From a 10K to a marathon, this model, like the previous version, has the responsive cushioning and secure support to push you towards your personal best.",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/40b2eb16-f683-4074-937a-e34db0cc9dbb/zoomx-vaporfly-next-2-road-racing-shoes-D4ntS0.png",
+            "price": "6,609,000₫",
+            "dateCreate": "18/04/2022"
+        },
+        {
+            "id": 8,
+            "idCategory": 11,
+            "name": "Nike Air Force 1 '07 Premium",
+            "description": "Get ready for your adventure. This AF-1 puts a premium spin on what you know best: stitched overlays, bold colours and the perfect amount of hoops style to make heads turn. A zipped pouch on the tongue lets you stash your stuff and there's even a detachable Swoosh carabiner that works as a bottle opener.",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08105925-b788-48d7-8381-99257fcd0281/air-force-1-07-shoes-dbvfjQ.png",
+            "price": "4,109,000₫",
+            "dateCreate": "18/04/2022"
+        },
+        {
+            "id": 9,
+            "idCategory": 8,
+            "name": "Nike Air More Uptempo '96",
+            "description": "With '90s graffiti-styled graphics alongside visible full-length Air cushioning, the Air More Uptempo '96 is all about off-court looks. Super clean and easy to wear, this nearly all-white colourway is a 1:1 retro from 1996 (never before reissued until now) that honours the shoe's success on and off the court.",
+            "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/693a2a1a-4038-4be2-bae9-13afd6f61f28/air-more-uptempo-96-shoes-tWJ7rk.png",
+            "price": "4,999,000₫",
+            "dateCreate": "18/04/2022"
+        }
+    ],
+    "categories": [
+        {
+            "id": 6,
+            "name": "Men"
+        },
+        {
+            "id": 7,
+            "name": "Women"
+        },
+        {
+            "id": 8,
+            "name": "Kids"
+        },
+        {
+            "id": 9,
+            "name": "Customise"
+        },
+        {
+            "id": 10,
+            "name": "Sale"
+        },
+        {
+            "id": 11,
+            "name": "SNKRS"
+        }
+    ]
+}

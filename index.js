@@ -76,7 +76,7 @@ async function scrapeInfiniteScrollItems(
   });
   console.log('Page loaded');
   page.setViewport({ width: 1280, height: 926 });
-  const items = await scrapeInfiniteScrollItems(page, extractItemsProduct, 5);
+  const items = await scrapeInfiniteScrollItems(page, extractItemsProduct, 10);
   const dataCategory = await page.evaluate(() => {
     let categories = [];
     let array = document.querySelectorAll(".pre-desktop-menu .pre-desktop-menu-item");
